@@ -11,6 +11,18 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color:deepskyblue;
+}
+
+header {
+  margin: 15px;
+}
+
 * {
   box-sizing: border-box;
+}
+
+button:hover {
+  background-color: lightblue;
 }
