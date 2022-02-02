@@ -2,11 +2,11 @@ import Head from 'next/head';
 import Header from './header';
 import styles from '../styles/Home.module.css';
 
-export default function Info() {
+export default function Profile() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Info</title>
+                <title>Profile</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -25,8 +25,9 @@ export default function Info() {
                     <div className={styles.card}>
                         <h2>Skills</h2>
                         <p>HTML, JS, CSS</p>
-                        <p>Framework and Library: React, Next, Vue</p>
+                        <p>Framework and Library: ReactJS, NextJS, Vue, JQuery</p>
                         <p>C# and Unity</p>
+                        <p>C++ and Unreal</p>
                     </div>
                     <div className={styles.card}>
                         <h2>My specs</h2>

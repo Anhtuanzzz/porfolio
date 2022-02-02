@@ -1,6 +1,9 @@
 import Head from 'next/head';
 //import Image from 'next/image';
 import Header from './header';
+import Home from './home';
+import Profile from './profile';
+import Projects from './projects';
 import styles from '../styles/Home.module.css';
 
 export default function App() {
@@ -15,6 +18,9 @@ export default function App() {
       <main className={styles.main}>
         <h1>Nguyễn Anh Tuấn</h1>
         <Header />
+        <Home />
+        <Profile />
+        <Projects />
       </main>
     </div>
   );
